@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("images/banner/banner2.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+}
+
+/* banner section style */
+.banner {
+    text-align: end;
+    padding-top: 150px;
+    padding-right: 230px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.banner-btn button {
+    border: none;
+    padding: 20px 25px;
+    background-color: #F15B22;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+border-radius: 10px;
+}
+
+/* failures section */
+
+
+.failures-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 0 190px;
+}
+
+
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 25px;
+}
+
+.key-items {
+    margin-top: 15px;
+}
+
+.key-items p {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.key-items p i{
+   color: #16D887;
+
+}
+
+.key-items p span img {
+    width: 20px;
+}
+
+/* plan-section */
+
+.plan-section {
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+
+.plans-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 85px;
+    margin-top: 50px;
+
+}
+.item-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.item-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/* my-work-section */
+
+.my-work-section {
+    margin: 120px 150px;
+}
+
+.my-work-section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.work-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.work-items {
+    margin: 0 15px;
+}
+
+.works-img {
+    text-align: center;
+}
+
+.works-img img {
+
+    width: 70px;
+}
+
+.works-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+.works-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* positive-section */
+
+.positive-section {
+    /* margin: 0px 230px; */
+    padding: 0 100px;
+}
+
+.bg {
+
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    height: 300px;
+
+
+}
+
+.call-btn {
+    color: #F15B22;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.positive-section-descrption {
+    margin-left: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+
+}
+
+.positive-section-descrption .section-title {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.outer-layer {
+
+    background-image: url("images/watch.png");
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 130px;
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    background: #151414;
+}
+
+
+.future-icon {
+    display: flex;
+
+}
+
+.future-icon p {
+    margin-right: 17px;
+
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.future-info {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+.subscribe-info form{
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-info .info-email{
+background-color: #151414;
+padding: 20px 25px;
+border:1px solid white;
+box-sizing: border-box;
+border-radius: 10px;
+width: 250px;
+}
+.subscribe-info button{
+    
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 35px;
+  border-radius: 10px;
+    }
+
